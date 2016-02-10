@@ -44,6 +44,8 @@
 }
 
 .logo_block {
+    display: block;
+    text-decoration: none;
     float: left;
     color: white;
     font-family: Arial, serif;
@@ -51,11 +53,13 @@
 }
 
 .logo {
+    display: inline-block;
     font-size: 36px;
     margin-bottom: 14px;
 }
 
 .lorem {
+    display: inline-block;
     font-size: 14px;
 }
 
