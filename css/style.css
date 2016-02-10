@@ -4,8 +4,7 @@
 }
 
 .links_block {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#181818+0,1d1d1d+7,1d1d1d+94,181818+100 */
-    background: #181818; /* Old browsers */
+    background: #181818;
     background: -moz-linear-gradient(top, #181818 0%, #1d1d1d 7%, #1d1d1d 94%, #181818 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, #181818 0%, #1d1d1d 7%, #1d1d1d 94%, #181818 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #181818 0%, #1d1d1d 7%, #1d1d1d 94%, #181818 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -21,6 +20,10 @@
     font-family: Arial, serif;
     color: #545454;
     text-decoration: none;
+}
+
+.links_block a:hover {
+    text-decoration: underline;
 }
 
 .header_content {
@@ -70,7 +73,7 @@
 }
 
 .search {
-    width: 390px; /* Ширина поля с кнопкой */
+    width: 390px; /* пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
     padding: 3px;
     background: #1d1d1d;
     border-radius: 3px;
@@ -83,12 +86,12 @@
 
 .search input[type="search"] {
     display: inline-block;
-    border: none; /*Убираем рамку*/
+    border: none; /*пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ*/
     height: 30px;
-    outline: none; /* Убираем свечение в Chrome и Safari */
-    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
-    width: 332px; /* Ширина поля */
-    vertical-align: middle; /* Выравнивание по середине */
+    outline: none; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ Chrome пїЅ Safari */
+    -webkit-appearance: none; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ Chrome пїЅ Safari */
+    width: 332px; /* пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ */
+    vertical-align: middle; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
     padding-left: 9px;
     background: #1d1d1d;
 
@@ -96,12 +99,12 @@
 
 .search input[type="submit"] {
     display: inline-block;
-    width: 46px; /* Ширина кнопки */
-    height: 30px; /* Высота кнопки */
+    width: 46px; /* пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
+    height: 30px; /* пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
     border: 1px outset #b3b3b3;
-    background: url(images/magnifier.png) no-repeat 50% 50% #9f9f9f; /* Параметры фона */
+    background: url(images/magnifier.png) no-repeat 50% 50% #9f9f9f; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ */
     border-radius: 2px;
-    vertical-align: middle; /* Выравнивание по середине */
+    vertical-align: middle; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 }
 
 .search_block a {
@@ -112,8 +115,8 @@
 .icon_arrow_right {
     vertical-align: middle;
     display: inline-block;
-    width: 12px; /* Ширинa */
-    height: 13px; /* Высота*/
+    width: 12px; /* пїЅпїЅпїЅпїЅпїЅa */
+    height: 13px; /* пїЅпїЅпїЅпїЅпїЅпїЅ*/
     background: url(images/arrow.png) no-repeat 50% 50%;
 }
 
@@ -137,15 +140,19 @@
 .menu li {
     float: left;
     width: 16.667%;
-    padding: 20px 0;
-    text-align: center;
     border-right: solid 1px #558dab;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
+.menu li:hover {
+    background: rgba(258, 258, 258, 0.5);
+}
+
 .menu a {
+    display: inline-block;
+    padding: 20px;
     text-decoration: none;
     letter-spacing: -0.025em;
     color: #ffffff;
